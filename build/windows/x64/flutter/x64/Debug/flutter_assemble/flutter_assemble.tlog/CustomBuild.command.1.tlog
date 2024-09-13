@@ -1,0 +1,28 @@
+^D:\CODING FILES\FLUTTER\HIREMI\BUILD\WINDOWS\X64\CMAKEFILES\42CEEE704FA39180D59464A3CE4D1715\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\fluttersdk\flutter "PROJECT_DIR=D:\Coding Files\Flutter\hiremi" FLUTTER_ROOT=D:\fluttersdk\flutter "FLUTTER_EPHEMERAL_DIR=D:\Coding Files\Flutter\hiremi\windows\flutter\ephemeral" "PROJECT_DIR=D:\Coding Files\Flutter\hiremi" "FLUTTER_TARGET=D:\Coding Files\Flutter\hiremi\lib\main.dart" DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\Coding Files\Flutter\hiremi\.dart_tool\package_config.json" D:/fluttersdk/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODING FILES\FLUTTER\HIREMI\BUILD\WINDOWS\X64\CMAKEFILES\FB9BA5328A3025B4DBB6E4876AF497B0\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODING FILES\FLUTTER\HIREMI\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Coding Files/Flutter/hiremi/windows" "-BD:/Coding Files/Flutter/hiremi/build/windows/x64" --check-stamp-file "D:/Coding Files/Flutter/hiremi/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

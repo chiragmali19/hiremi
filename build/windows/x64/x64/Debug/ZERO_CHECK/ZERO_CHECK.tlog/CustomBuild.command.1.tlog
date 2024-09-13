@@ -1,0 +1,10 @@
+^D:\CODING FILES\FLUTTER\HIREMI\BUILD\WINDOWS\X64\CMAKEFILES\1AF271DB7676790E6B68C51F00A2F104\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Coding Files/Flutter/hiremi/windows" "-BD:/Coding Files/Flutter/hiremi/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Coding Files/Flutter/hiremi/build/windows/x64/hiremi.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

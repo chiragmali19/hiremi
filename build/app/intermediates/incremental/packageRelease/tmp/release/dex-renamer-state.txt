@@ -1,0 +1,4 @@
+#Fri Sep 13 17:00:21 IST 2024
+base.0=D\:\\Coding Files\\Flutter\\hiremi\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
